@@ -1,0 +1,1842 @@
+[
+  {
+    "relation": "P17",
+    "label_name": "country",
+    "description": "sovereign state of this item; don't use on humans",
+    "aliases": [
+      "state",
+      "land",
+      "sovereign state",
+      "host country"
+    ]
+  },
+  {
+    "relation": "P19",
+    "label_name": "place of birth",
+    "description": "most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character",
+    "aliases": [
+      "birth location",
+      "birthplace",
+      "location of birth",
+      "POB",
+      "birth city",
+      "birth place",
+      "born at",
+      "born in",
+      "location born"
+    ]
+  },
+  {
+    "relation": "P20",
+    "label_name": "place of death",
+    "description": "most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character",
+    "aliases": [
+      "POD",
+      "deathplace",
+      "location of death",
+      "death location",
+      "death place",
+      "died in"
+    ]
+  },
+  {
+    "relation": "P22",
+    "label_name": "father",
+    "description": "male parent of the subject. For stepfather, use \"stepparent\" (P3448)",
+    "aliases": [
+      "child of",
+      "dad",
+      "daddy",
+      "daughter of",
+      "has father",
+      "is child of",
+      "is daughter of",
+      "is son of",
+      "parent",
+      "son of"
+    ]
+  },
+  {
+    "relation": "P25",
+    "label_name": "mother",
+    "description": "female parent of the subject. For stepmother, use \"stepparent\" (P3448)",
+    "aliases": [
+      "mom",
+      "mum",
+      "child of",
+      "daughter of",
+      "is child of",
+      "is daughter of",
+      "is son of",
+      "parent",
+      "son of",
+      "mam",
+      "mummy",
+      "has mother"
+    ]
+  },
+  {
+    "relation": "P26",
+    "label_name": "spouse",
+    "description": "the subject has the object as their spouse (husband, wife, partner, etc.). Use \"unmarried partner\" (P451) for non-married companions",
+    "aliases": [
+      "husband",
+      "husbands",
+      "marriage partner",
+      "married",
+      "married to",
+      "marry",
+      "spouses",
+      "wed",
+      "wedded to",
+      "wife",
+      "wives"
+    ]
+  },
+  {
+    "relation": "P27",
+    "label_name": "country of citizenship",
+    "description": "the object is a country that recognizes the subject as its citizen",
+    "aliases": [
+      "nationality",
+      "citizenship",
+      "citizen of",
+      "national of",
+      "subject of (country)"
+    ]
+  },
+  {
+    "relation": "P30",
+    "label_name": "continent",
+    "description": "continent of which the subject is a part",
+    "aliases": [
+    "continent",
+    "landmass",
+    "major landmass"
+    ]
+  },
+  {
+    "relation": "P31",
+    "label_name": "instance of",
+    "description": "that class of which this subject is a particular example and member",
+    "aliases": [
+      "member of",
+      "type",
+      "is a",
+      "distinct element of",
+      "distinct individual member of",
+      "distinct member of",
+      "has class",
+      "has type",
+      "is a particular",
+      "is a specific",
+      "is a unique",
+      "is an",
+      "is an example of",
+      "is an individual",
+      "non-type member of",
+      "not a type but is instance of",
+      "occurrence of",
+      "rdf:type",
+      "uninstantiable instance of",
+      "unique individual of",
+      "unitary element of class",
+      "unsubclassable example of",
+      "unsubclassifiable member of",
+      "unsubtypable particular",
+      "\u00e2\u0088\u0088"
+    ]
+  },
+  {
+    "relation": "P36",
+    "label_name": "capital",
+    "description": "primary city of a country, province, state or other type of administrative territorial entity",
+    "aliases": [
+      "chef-lieu",
+      "administrative centre",
+      "administrative headquarters",
+      "capital city",
+      "capital town",
+      "county seat",
+      "has capital",
+      "principal place",
+      "court residence"
+    ]
+  },
+  {
+    "relation": "P37",
+    "label_name": "official language",
+    "description": "language designated as official by this item",
+    "aliases": [
+      "speaking",
+      "language official",
+      "language spoken",
+      "spoken in"
+    ]
+  },
+  {
+    "relation": "P39",
+    "label_name": "position held",
+    "description": "subject currently or formerly holds the object position or public office",
+    "aliases": [
+      "holds position",
+      "office held",
+      "political office held",
+      "political seat",
+      "position occupied",
+      "public office"
+    ]
+  },
+  {
+    "relation": "P40",
+    "label_name": "child",
+    "description": "subject has object as biological, foster, and/or adoptive child",
+    "aliases": [
+      "son",
+      "kid",
+      "issue",
+      "children",
+      "daughter",
+      "daughters",
+      "has child",
+      "has children",
+      "has daughter",
+      "has daughters",
+      "has kid",
+      "has kids",
+      "has son",
+      "has sons",
+      "kids",
+      "offspring",
+      "sons",
+      "progeny"
+    ]
+  },
+  {
+    "relation": "P47",
+    "label_name": "shares border with",
+    "description": "countries or administrative subdivisions, of equal level, that this item borders, either by land or water. A single common point is enough.",
+    "aliases": [
+      "border",
+      "adjacent to",
+      "bordered by",
+      "borders",
+      "next to"
+    ]
+  },
+  {
+    "relation": "P50",
+    "label_name": "author",
+    "description": "main creator(s) of a written work (use on works, not humans); use P2093 when Wikidata item is unknown or does not exist",
+    "aliases": [
+      "writer",
+      "written by",
+      "authors",
+      "by",
+      "writers",
+      "author(s)",
+      "writer(s)"
+    ]
+  },
+  {
+    "relation": "P53",
+    "label_name": "family",
+    "description": "family, including dynasty and nobility houses. Not family name (use P734 for family name).",
+    "aliases": [
+      "dynasty",
+      "house",
+      "noble family",
+      "royal house"
+    ]
+  },
+  {
+    "relation": "P54",
+    "label_name": "member of sports team",
+    "description": "sports teams or clubs that the subject currently represents or formerly represented",
+    "aliases": [
+      "team",
+      "club played for",
+      "member of team",
+      "of team",
+      "part of team",
+      "played for",
+      "player of",
+      "plays for",
+      "team played for",
+      "teams played for"
+    ]
+  },
+  {
+    "relation": "P57",
+    "label_name": "director",
+    "description": "director(s) of film, TV-series, stageplay, video game or similar",
+    "aliases": [
+      "film director",
+      "movie director",
+      "directed by"
+    ]
+  },
+  {
+    "relation": "P58",
+    "label_name": "screenwriter",
+    "description": "person(s) who wrote the script for subject item",
+    "aliases": [
+      "written by",
+      "scriptwriter",
+      "film script by",
+      "screenplay by",
+      "teleplay by",
+      "writer (of screenplays)"
+    ]
+  },
+  {
+    "relation": "P59",
+    "label_name": "constellation",
+    "description": "the area of the celestial sphere of which the subject is a part (from a scientific standpoint, not an astrological one)",
+    "aliases": [
+      "part of constellation",
+      "star grouping",
+      "stellar configuration"
+    ]
+  },
+  {
+    "relation": "P69",
+    "label_name": "educated at",
+    "description": "educational institution attended by subject",
+    "aliases": [
+      "education",
+      "faculty",
+      "alma mater",
+      "alumna of",
+      "alumni of",
+      "alumnus of",
+      "college attended",
+      "graduate of",
+      "graduated from",
+      "school attended",
+      "studied at",
+      "university attended"
+    ]
+  },
+  {
+    "relation": "P81",
+    "label_name": "connecting line",
+    "description": "railway or public transport line(s) subject is directly connected to; use as a qualifier to P197",
+    "aliases": [
+      "railway line",
+      "is on",
+      "line connected to",
+      "rail line connected to",
+      "rapid transit line"
+    ]
+  },
+  {
+    "relation": "P86",
+    "label_name": "composer",
+    "description": "person(s) who wrote the music [for lyricist, use \"lyrics by\" (P676)]",
+    "aliases": [
+      "songwriter",
+      "composed by",
+      "music by",
+      "musical score by",
+      "written by"
+    ]
+  },
+  {
+    "relation": "P101",
+    "label_name": "field of work",
+    "description": "specialization of a person or organization; see P106 for the occupation",
+    "aliases": [
+      "academic discipline",
+      "subject",
+      "area",
+      "discipline",
+      "FOW",
+      "scientific discipline",
+      "domain",
+      "activity",
+      "field of study",
+      "academic area",
+      "academic subject",
+      "fields",
+      "responsible for",
+      "scientific area",
+      "specialism",
+      "studies",
+      "speciality",
+      "research on",
+      "conduct research about",
+      "be researcher in"
+    ]
+  },
+  {
+    "relation": "P102",
+    "label_name": "member of political party",
+    "description": "the political party of which this politician is or has been a member",
+    "aliases": [
+      "political party",
+      "party",
+      "member of",
+      "member of party",
+      "party membership"
+    ]
+  },
+  {
+    "relation": "P106",
+    "label_name": "occupation",
+    "description": "occupation of a person; see also \"field of work\" (Property:P101), \"position held\" (Property:P39)",
+    "aliases": [
+      "craft",
+      "work",
+      "profession",
+      "career",
+      "employment",
+      "job"
+    ]
+  },
+  {
+    "relation": "P108",
+    "label_name": "employer",
+    "description": "person or organization for which the subject works or worked",
+    "aliases": [
+      "workplace",
+      "employed by",
+      "worked at",
+      "worked for",
+      "working for",
+      "working place",
+      "works at",
+      "works for"
+    ]
+  },
+  {
+    "relation": "P112",
+    "label_name": "founded by",
+    "description": "founder or co-founder of this organization, religion or place",
+    "aliases": [
+      "founder",
+      "co-founder",
+      "co-founded by",
+      "established by",
+      "founders"
+    ]
+  },
+  {
+    "relation": "P118",
+    "label_name": "league",
+    "description": "league in which team or player plays or has played in",
+    "aliases": [
+      "sports league",
+      "division",
+      "association"
+    ]
+  },
+  {
+    "relation": "P121",
+    "label_name": "item operated",
+    "description": "equipment, installation or service operated by the subject",
+    "aliases": [
+      "eq",
+      "item used",
+      "fleet",
+      "acop",
+      "aircraft carried",
+      "aircraft in fleet",
+      "aircraft operated",
+      "controls",
+      "equipment operated",
+      "facility operated",
+      "operated",
+      "operates",
+      "operator of",
+      "runs",
+      "service operated",
+      "uses item"
+    ]
+  },
+  {
+    "relation": "P123",
+    "label_name": "publisher",
+    "description": "organization or person responsible for publishing books, periodicals, games or software",
+    "aliases": [
+      "publishing house",
+      "video game publisher",
+      "board game publisher",
+      "book publisher",
+      "software publisher",
+      "published by"
+    ]
+  },
+  {
+    "relation": "P127",
+    "label_name": "owned by",
+    "description": "owner of the subject",
+    "aliases": [
+      "owner",
+      "provenance",
+      "shareholder",
+      "stockholder",
+      "belongs to",
+      "is owned by",
+      "owners",
+      "shareholders",
+      "stockholders"
+    ]
+  },
+  {
+    "relation": "P131",
+    "label_name": "located in the administrative territorial entity",
+    "description": "the item is located on the territory of the following administrative entity. Use P276 (location) for specifying locations that are non-administrative places and for items about events",
+    "aliases": [
+      "city",
+      "town",
+      "locality",
+      "administrative territorial entity",
+      "region",
+      "state",
+      "based in",
+      "happens in",
+      "in",
+      "in administrative unit",
+      "in the administrative unit",
+      "Indian reservation",
+      "is in administrative unit",
+      "is in the administrative region of",
+      "is in the administrative unit",
+      "is in the arrondissement of",
+      "is in the borough of",
+      "is in the city of",
+      "is in the commune of",
+      "is in the county of",
+      "is in the department of",
+      "is in the district of",
+      "is in the Indian reservation of",
+      "is in the Indian reserve of",
+      "is in the local government area of",
+      "is in the municipality of",
+      "is in the parish of",
+      "is in the prefecture of",
+      "is in the principal area of",
+      "is in the province of",
+      "is in the region of",
+      "is in the rural city of",
+      "is in the settlement of",
+      "is in the shire of",
+      "is in the state of",
+      "is in the territory of",
+      "is in the town of",
+      "is in the village of",
+      "is in the voivodeship of",
+      "is in the ward of",
+      "is located in",
+      "located in administrative unit",
+      "located in the administrative territorial entity",
+      "located in the administrative unit",
+      "located in the territorial entity",
+      "location (administrative territorial entity)"
+    ]
+  },
+  {
+    "relation": "P135",
+    "label_name": "movement",
+    "description": "literary, artistic, scientific or philosophical movement or scene associated with this person or work",
+    "aliases": [
+      "school",
+      "music scene",
+      "trend"
+    ]
+  },
+  {
+    "relation": "P136",
+    "label_name": "genre",
+    "description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+    "aliases": [
+      "music genre",
+      "literary genre",
+      "film genre",
+      "genre of music",
+      "type of music",
+      "artistic genre",
+      "kind of music",
+      "type of film"
+    ]
+  },
+  {
+    "relation": "P138",
+    "label_name": "named after",
+    "description": "entity or event that inspired the subject's name, or namesake (in at least one language). Qualifier \"applies to name\" (P5168) can be used to indicate which one",
+    "aliases": [
+      "etymology",
+      "toponym",
+      "eponym",
+      "name after",
+      "named for",
+      "namesake",
+      "named in honor of"
+    ]
+  },
+  {
+    "relation": "P140",
+    "label_name": "religion",
+    "description": "religion of a person, organization or religious building, or associated with this subject",
+    "aliases": [
+      "faith",
+      "denomination",
+      "life stance",
+      "religious affiliation"
+    ]
+  },
+  {
+    "relation": "P144",
+    "label_name": "based on",
+    "description": "the work(s) used as the basis for subject item",
+    "aliases": [
+      "theme",
+      "derived from",
+      "adaptation of",
+      "based upon",
+      "adapted from",
+      "copy of",
+      "extended from",
+      "fork of",
+      "modeled after",
+      "remake of",
+      "themed after"
+    ]
+  },
+  {
+    "relation": "P150",
+    "label_name": "contains administrative territorial entity",
+    "description": "(list of) direct subdivisions of an administrative territorial entity",
+    "aliases": [
+      "contains",
+      "divided into",
+      "divides into",
+      "has administrative divisions",
+      "has arrondissements",
+      "has boroughs",
+      "has cities",
+      "has counties",
+      "has districts",
+      "has local government areas",
+      "has municipalities",
+      "has regions",
+      "has rural cities",
+      "has shires",
+      "has states",
+      "has towns",
+      "has villages",
+      "has wards",
+      "subdivided into",
+      "has members",
+      "has countries"
+    ]
+  },
+  {
+    "relation": "P155",
+    "label_name": "follows",
+    "description": "immediately prior item in a series of which the subject is a part [if the subject has replaced the preceding item, e.g. political offices, use \"replaces\" (P1365)]",
+    "aliases": [
+      "preceded by",
+      "predecessor",
+      "succeeds",
+      "before was",
+      "comes after",
+      "prequel is",
+      "previous is",
+      "sequel of",
+      "split from",
+      "succeeds to",
+      "successor to"
+    ]
+  },
+  {
+    "relation": "P159",
+    "label_name": "headquarters location",
+    "description": "specific location where an organization's headquarters is or has been situated. Inverse property of \"occupant\" (P466).",
+    "aliases": [
+      "seat",
+      "HQ",
+      "based in",
+      "garrison",
+      "headquarters",
+      "admin HQ",
+      "head office location",
+      "head quarters",
+      "HQ location",
+      "principle office"
+    ]
+  },
+  {
+    "relation": "P161",
+    "label_name": "cast member",
+    "description": "actor in the subject production [use \"character role\" (P453) and/or \"name of the character role\" (P4633) as qualifiers] [use \"voice actor\" (P725) for voice-only role]",
+    "aliases": [
+      "actor",
+      "actress",
+      "contestant or a play",
+      "film starring",
+      "starring"
+    ]
+  },
+  {
+    "relation": "P162",
+    "label_name": "producer",
+    "description": "person(s) who produced the film, musical work, theatrical production, etc. (for film, this does not include executive producers, associate producers, etc.) [for production company, use P272, video games - use P178]",
+    "aliases": [
+      "film producer",
+      "record producer",
+      "produced by"
+    ]
+  },
+  {
+    "relation": "P166",
+    "label_name": "award received",
+    "description": "award or recognition received by a person, organisation or creative work",
+    "aliases": [
+      "award",
+      "awards",
+      "award won",
+      "awarded",
+      "awards received",
+      "honorary title",
+      "honors",
+      "honours",
+      "medals",
+      "prize awarded",
+      "prize received",
+      "recognition title",
+      "win",
+      "winner of"
+    ]
+  },
+  {
+    "relation": "P170",
+    "label_name": "creator",
+    "description": "maker of this creative work or other object (where no more specific property exists). Paintings with unknown painters, use \"anonymous\" (Q4233718) as value.",
+    "aliases": [
+      "painter",
+      "sculptor",
+      "sculptors",
+      "created by",
+      "made by",
+      "artist (non-musical)",
+      "creators",
+      "painters"
+    ]
+  },
+  {
+    "relation": "P175",
+    "label_name": "performer",
+    "description": "actor, musician, band or other performer associated with this role or musical work",
+    "aliases": [
+      "actor",
+      "artist",
+      "musician",
+      "dancer",
+      "musical artist",
+      "played by",
+      "portrayed by",
+      "recorded by",
+      "recording by"
+    ]
+  },
+  {
+    "relation": "P176",
+    "label_name": "manufacturer",
+    "description": "manufacturer or producer of this product",
+    "aliases": [
+      "builder",
+      "made by",
+      "built by",
+      "mfr",
+      "maker",
+      "manufactured by",
+      "producer (of product)",
+      "product of"
+    ]
+  },
+  {
+    "relation": "P178",
+    "label_name": "developer",
+    "description": "organisation or person that developed the item",
+    "aliases": [
+      "developed by",
+      "creator",
+      "originator"
+    ]
+  },
+  {
+    "relation": "P179",
+    "label_name": "part of the series",
+    "description": "series which contains the subject",
+    "aliases": [
+      "series",
+      "part of series",
+      "listed in"
+    ]
+  },
+  {
+    "relation": "P186",
+    "label_name": "material used",
+    "description": "material the subject is made of or derived from",
+    "aliases": [
+      "medium",
+      "media",
+      "ingredient",
+      "reactant",
+      "feedstock",
+      "raw material",
+      "construction material",
+      "built from",
+      "built out of",
+      "constructed from",
+      "constructed out of",
+      "crafted from",
+      "crafted out of",
+      "formed from",
+      "formed out of",
+      "ingredients",
+      "made from",
+      "made of",
+      "manufactured from",
+      "manufactured out of",
+      "ore",
+      "source material"
+    ]
+  },
+  {
+    "relation": "P190",
+    "label_name": "twinned administrative body",
+    "description": "twin towns, sister cities, twinned municipalities and other localities that have a partnership or cooperative agreement, either legally or informally acknowledged by their governments",
+    "aliases": [
+      "twin town",
+      "partner city",
+      "partner town",
+      "sister city",
+      "sister town",
+      "twin cities",
+      "twin city"
+    ]
+  },
+  {
+    "relation": "P206",
+    "label_name": "located in or next to body of water",
+    "description": "sea, lake or river",
+    "aliases": [
+      "bay",
+      "lake",
+      "sea",
+      "body of water",
+      "loc (water)",
+      "located next to body of water",
+      "located on body of water",
+      "next to lake",
+      "ocean",
+      "on bay",
+      "on coast of",
+      "on harbour",
+      "on lake",
+      "on river",
+      "on shore of",
+      "on the coast of",
+      "on the shore of"
+    ]
+  },
+  {
+    "relation": "P241",
+    "label_name": "military branch",
+    "description": "branch to which this military unit, award, office, or person belongs, e.g. Royal Navy",
+    "aliases": [
+      "formation",
+      "branch",
+      "service branch"
+    ]
+  },
+  {
+    "relation": "P264",
+    "label_name": "record label",
+    "description": "brand and trademark associated with the marketing of subject music recordings and music videos",
+    "aliases": [
+      "label",
+      "music label",
+      "audio label"
+    ]
+  },
+  {
+    "relation": "P272",
+    "label_name": "production company",
+    "description": "company that produced this film, audio or performing arts work",
+    "aliases": [
+      "film studio",
+      "theatre company",
+      "ballet company",
+      "studio",
+      "motion picture studio",
+      "movie studio",
+      "theatrical troupe",
+      "broadcasting company",
+      "production house",
+      "theater company"
+    ]
+  },
+  {
+    "relation": "P276",
+    "label_name": "location",
+    "description": "location of the item, physical object or event is within. In case of an administrative entity use P131. In case of a distinct terrain feature use P706.",
+    "aliases": [
+      "neighborhood",
+      "venue",
+      "region",
+      "event location",
+      "based in",
+      "in",
+      "is in",
+      "located in",
+      "location of item",
+      "moveable object location",
+      "place held",
+      "located"
+    ]
+  },
+  {
+    "relation": "P279",
+    "label_name": "subclass of",
+    "description": "all instances of these items are instances of those items; this item is a class (subset) of that item. Not to be confused with P31 (instance of)",
+    "aliases": [
+      "\u00e2\u008a\u0082",
+      "\u00e2\u008a\u0086",
+      "form of",
+      "has superclass",
+      "hyponym of",
+      "is a category of",
+      "is a class of",
+      "is a subtype of",
+      "is a type of",
+      "is also a",
+      "is necessarily also a",
+      "is thereby also a",
+      "rdfs:subClassOf",
+      "subcategory of",
+      "subset of",
+      "subtype of",
+      "type of",
+      "whose instances \u00e2\u008a\u0086 those of",
+      "whose instances are among"
+    ]
+  },
+  {
+    "relation": "P355",
+    "label_name": "subsidiary",
+    "description": "subsidiary of a company or organization, opposite of parent organization (P749)",
+    "aliases": [
+      "parent company of",
+      "subsidiary company",
+      "subsidiary entities",
+      "owns",
+      "has subsidiary"
+    ]
+  },
+  {
+    "relation": "P360",
+    "label_name": "is a list of",
+    "description": "common element between all listed items",
+    "aliases": [
+      "lists",
+      "list of",
+      "main article of list",
+      "main topic of list"
+    ]
+  },
+  {
+    "relation": "P361",
+    "label_name": "part of",
+    "description": "object of which the subject is a part (if this subject is already part of object A which is a part of object B, then please only make the subject part of object A). Inverse property of \"has part\" (P527, see also \"has parts of the class\" (P2670)).",
+    "aliases": [
+      "in",
+      "assembly of",
+      "component of",
+      "contained within",
+      "is part of",
+      "merged into",
+      "merged with",
+      "meronym of",
+      "part of-property",
+      "section of",
+      "subassembly of",
+      "subsystem of",
+      "system of",
+      "within",
+      "band member of",
+      "subgroup of"
+    ]
+  },
+  {
+    "relation": "P364",
+    "label_name": "original language of film or TV show",
+    "description": "language in which a film or a performance work was originally created. Deprecated for written works; use P407 (\"language of work or name\") instead.",
+    "aliases": [
+      "language",
+      "original language",
+      "created on language",
+      "language of the original work"
+    ]
+  },
+  {
+    "relation": "P366",
+    "label_name": "use",
+    "description": "main use of the subject (includes current and former usage)",
+    "aliases": [
+      "mission",
+      "function",
+      "role",
+      "purpose",
+      "usage",
+      "utility",
+      "as",
+      "used as",
+      "used for",
+      "used in"
+    ]
+  },
+  {
+    "relation": "P376",
+    "label_name": "located on astronomical location",
+    "description": "astronomical body on which features or places are situated",
+    "aliases": [
+      "planet",
+      "astronomical body (location)",
+      "located on astronomical body"
+    ]
+  },
+  {
+    "relation": "P397",
+    "label_name": "parent astronomical body",
+    "description": "major astronomical body the item belongs to",
+    "aliases": [
+      "star",
+      "planetary system",
+      "orbits",
+      "parent body"
+    ]
+  },
+  {
+    "relation": "P400",
+    "label_name": "platform",
+    "description": "platform for which a work was developed or released, or the specific platform version of a software product",
+    "aliases": [
+      "platforms",
+      "environment",
+      "hardware",
+      "computing platform",
+      "runtime",
+      "game platform",
+      "published on"
+    ]
+  },
+  {
+    "relation": "P403",
+    "label_name": "mouth of the watercourse",
+    "description": "the body of water to which the watercourse drains",
+    "aliases": [
+      "outflow",
+      "drain",
+      "river mouth",
+      "confluences",
+      "outlet",
+      "tributary of",
+      "watercourse drain",
+      "watercourse ends in",
+      "watercourse outflow"
+    ]
+  },
+  {
+    "relation": "P412",
+    "label_name": "voice type",
+    "description": "person's voice type. expected values: soprano, mezzo-soprano, contralto, countertenor, tenor, baritone, bass (and derivatives)",
+    "aliases": [
+      "register",
+      "range of voice",
+      "tessitura",
+      "type of voice",
+      "vocal type"
+    ]
+  },
+  {
+    "relation": "P413",
+    "label_name": "position played on team / speciality",
+    "description": "position or specialism of a player on a team, e.g. Small Forward",
+    "aliases": [
+      "specialism",
+      "fielding position",
+      "player position",
+      "position (on team)",
+      "speciality"
+    ]
+  },
+  {
+    "relation": "P425",
+    "label_name": "field of this occupation",
+    "description": "activity corresponding to this occupation (use only for occupations - for people use Property:P101, for profession use P425, for companies use P452)",
+    "aliases": [
+      "practice",
+      "activity corresponding to this occupation",
+      "field of this profession",
+      "profession's field",
+      "practices"
+    ]
+  },
+  {
+    "relation": "P449",
+    "label_name": "original broadcaster",
+    "description": "network(s) or service(s) that originally broadcasted a radio or television program",
+    "aliases": [
+      "television channel",
+      "radio station",
+      "radio network",
+      "TV channel",
+      "broadcast on",
+      "channel",
+      "first air channel",
+      "network",
+      "original air channel",
+      "original channel",
+      "original network"
+    ]
+  },
+  {
+    "relation": "P452",
+    "label_name": "industry",
+    "description": "industry of company or organization",
+    "aliases": [
+      "branch",
+      "sector",
+      "economic branch",
+      "field of action",
+      "field of exercise"
+    ]
+  },
+  {
+    "relation": "P460",
+    "label_name": "said to be the same as",
+    "description": "this item is said to be the same as that item, but the statement is disputed",
+    "aliases": [
+      "close to",
+      "disputed equivalence",
+      "equivalent of",
+      "equivalent to",
+      "is said to be the same as",
+      "is the same as",
+      "possibly equivalent to",
+      "possibly the same as",
+      "said to be different from",
+      "same",
+      "same as",
+      "see also",
+      "similar to",
+      "the same as",
+      "conspecific with"
+    ]
+  },
+  {
+    "relation": "P461",
+    "label_name": "opposite of",
+    "description": "item that is the opposite of this item",
+    "aliases": [
+      "antonym",
+      "antonym of",
+      "inverse",
+      "is the antonym of",
+      "is the opposite of",
+      "opposite",
+      "inverse of"
+    ]
+  },
+  {
+    "relation": "P463",
+    "label_name": "member of",
+    "description": "organization, musical group, or club to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a position such as a member of parliament (use P39 for that).",
+    "aliases": [
+      "membership",
+      "affiliated individual",
+      "organizational participant"
+    ]
+  },
+  {
+    "relation": "P466",
+    "label_name": "occupant",
+    "description": "a person or organization occupying property",
+    "aliases": [
+      "inhabitant",
+      "tenant",
+      "resident",
+      "lessee",
+      "renter",
+      "houses",
+      "location of"
+    ]
+  },
+  {
+    "relation": "P495",
+    "label_name": "country of origin",
+    "description": "country of origin of this item (creative work, food, phrase, product, etc.)",
+    "aliases": [
+      "comes from",
+      "originates from",
+      "CoO",
+      "origin (country)",
+      "place of origin"
+    ]
+  },
+  {
+    "relation": "P530",
+    "label_name": "diplomatic relation",
+    "description": "diplomatic relations of the country",
+    "aliases": [
+      "foreign relations",
+      "ambassadorial relation",
+      "ambassadorial relations",
+      "diplomatic relation",
+      "diplomatic relations",
+      "foreign relation",
+      "political relation",
+      "political relations"
+    ]
+  },
+  {
+    "relation": "P551",
+    "label_name": "residence",
+    "description": "the place where the person is or has been, resident",
+    "aliases": [
+      "lives in",
+      "home town",
+      "hometown",
+      "lived in",
+      "place of residence",
+      "resident in",
+      "resident of",
+      "resided in",
+      "resided at"
+    ]
+  },
+  {
+    "relation": "P569",
+    "label_name": "date of birth",
+    "description": "date on which the subject was born",
+    "aliases": [
+      "DOB",
+      "birth date",
+      "birth year",
+      "birthdate",
+      "birthyear",
+      "born on",
+      "year of birth"
+    ]
+  },
+  {
+    "relation": "P570",
+    "label_name": "date of death",
+    "description": "date on which the subject died",
+    "aliases": [
+      "DOD",
+      "death",
+      "dead",
+      "death date",
+      "died on",
+      "year of death",
+      "date of the end",
+      "deathdate"
+    ]
+  },
+  {
+    "relation": "P571",
+    "label_name": "inception",
+    "description": "date or point in time when the subject came into existence as defined",
+    "aliases": [
+      "foundation",
+      "formation",
+      "introduction",
+      "formed in",
+      "date of establishment",
+      "date of founding",
+      "establishment date",
+      "founding date",
+      "introduced",
+      "start date",
+      "commenced on date",
+      "commencement date",
+      "completed",
+      "constructed",
+      "construction date",
+      "created",
+      "created on date",
+      "creation date",
+      "date commenced",
+      "date constructed",
+      "date created",
+      "date formed",
+      "date founded",
+      "date incorporated",
+      "date of commencement",
+      "date of creation",
+      "date of foundation",
+      "date of foundation or creation",
+      "date of incorporation",
+      "dedication date",
+      "established",
+      "established on date",
+      "first issue",
+      "formation date",
+      "formed at",
+      "formed on date",
+      "foundation date",
+      "founded",
+      "founded on date",
+      "inaugurated",
+      "incorporated",
+      "incorporated on date",
+      "incorporation date",
+      "inititated",
+      "launch date",
+      "time of foundation or creation",
+      "time of inception",
+      "written on date",
+      "year commenced",
+      "year created",
+      "year established",
+      "year founded",
+      "year incorporated",
+      "year written",
+      "built",
+      "foundation\u00e2\u0080\u00af/\u2009creation date"
+    ]
+  },
+  {
+    "relation": "P577",
+    "label_name": "publication date",
+    "description": "date or point in time when a work was first published or released",
+    "aliases": [
+      "publication",
+      "dop",
+      "date of publication",
+      "first published",
+      "first released",
+      "air date",
+      "date of first publication",
+      "date of release",
+      "date published",
+      "date released",
+      "initial release",
+      "pubdate",
+      "publication time",
+      "published",
+      "release date",
+      "released",
+      "time of publication",
+      "year of publication",
+      "first publication",
+      "airdate"
+    ]
+  },
+  {
+    "relation": "P607",
+    "label_name": "conflict",
+    "description": "battles, wars or other military engagements in which the person or item participated",
+    "aliases": [
+      "battle",
+      "war",
+      "military conflict",
+      "in action",
+      "in conflict",
+      "participant in conflict",
+      "participated in conflict",
+      "theater (military)",
+      "theatre (military)",
+      "engagement",
+      "military engagement"
+    ]
+  },
+  {
+    "relation": "P641",
+    "label_name": "sport",
+    "description": "sport in which the subject participates or belongs to",
+    "aliases": [
+      "play",
+      "sports",
+      "plays",
+      "sport played"
+    ]
+  },
+  {
+    "relation": "P647",
+    "label_name": "drafted by",
+    "description": "which team the player was drafted by",
+    "aliases": [ "drafted",
+    "selected by",
+    "chosen by",
+    "picked by",
+    "team selection",
+    "team drafted",
+    "team pick",
+    "team choice"
+    ]
+  },
+  {
+    "relation": "P674",
+    "label_name": "characters",
+    "description": "characters which appear in this item (like plays, operas, operettas, books, comics, films, TV series, video games)",
+    "aliases": [
+    "fictional characters",
+    "roles",
+    "protagonists",
+    "figures",
+    "personalities",
+    "story characters",
+    "character list",
+    "cast members",
+    "personas"
+    ]
+  },
+  {
+    "relation": "P676",
+    "label_name": "lyrics by",
+    "description": "author of song lyrics; also use P86 for music composer",
+    "aliases": [
+      "author",
+      "lyricist",
+      "lyracist",
+      "words by",
+      "writer (of song lyrics)"
+    ]
+  },
+  {
+    "relation": "P706",
+    "label_name": "located on terrain feature",
+    "description": "located on the specified landform. Should not be used when the value is only political/administrative (P131) or a mountain range (P4552).",
+    "aliases": [
+      "geographical region",
+      "is on",
+      "terrain feature",
+      "on",
+      "is in",
+      "takes place in",
+      "loc (terr)",
+      "location (terrain feature)",
+      "on geographical feature",
+      "on natural feature"
+    ]
+  },
+  {
+    "relation": "P734",
+    "label_name": "family name",
+    "description": "part of full name of person",
+    "aliases": [
+      "surname",
+      "last name",
+      "family appellation"
+    ]
+  },
+  {
+    "relation": "P735",
+    "label_name": "given name",
+    "description": "first name or another given name of this person; values used with the property shouldn't link disambiguations nor family names.",
+    "aliases": [
+      "name",
+      "Christian name",
+      "first name",
+      "forename",
+      "middle name",
+      "personal name"
+    ]
+  },
+  {
+    "relation": "P737",
+    "label_name": "influenced by",
+    "description": "this person, idea, etc. is informed by that other person, idea, etc., e.g. \"Heidegger was influenced by Aristotle\".",
+    "aliases": [
+      "role model",
+      "favorite player",
+      "has influence",
+      "informed by"
+    ]
+  },
+  {
+    "relation": "P800",
+    "label_name": "notable work",
+    "description": "notable scientific, artistic or literary work, or other work of significance among subject's works",
+    "aliases": [
+      "work",
+      "artwork",
+      "bibliography",
+      "literary works",
+      "works",
+      "famous books",
+      "famous for",
+      "famous works",
+      "known for",
+      "major works",
+      "notable books",
+      "representative work",
+      "significance",
+      "significant works",
+      "creator of",
+      "representative of artwork type"
+    ]
+  },
+  {
+    "relation": "P802",
+    "label_name": "student",
+    "description": "notable student(s) of an individual",
+    "aliases": [
+      "pupil",
+      "disciples",
+      "disciple",
+      "pupils",
+      "students",
+      "teacher of"
+    ]
+  },
+  {
+    "relation": "P840",
+    "label_name": "narrative location",
+    "description": "the narrative of the work is set in this location",
+    "aliases": [
+      "location of narrative",
+      "narrative set in",
+      "set in location",
+      "setting location",
+      "takes place in",
+      "playing in"
+    ]
+  },
+  {
+    "relation": "P921",
+    "label_name": "main subject",
+    "description": "primary topic of a work (see also P180: depicts)",
+    "aliases": [
+      "subject",
+      "artistic theme",
+      "topic",
+      "sitter",
+      "theme",
+      "keyword",
+      "about",
+      "main topic",
+      "index term",
+      "subject heading",
+      "describes",
+      "is about",
+      "main issue",
+      "main thing",
+      "mainly about",
+      "primary subject",
+      "primary topic",
+      "topic of work",
+      "mentions",
+      "refers to"
+    ]
+  },
+  {
+    "relation": "P937",
+    "label_name": "work location",
+    "description": "location where persons were active",
+    "aliases": [
+      "location of work",
+      "place of work",
+      "work location",
+      "workplace",
+      "active in",
+      "place of activity",
+      "working at",
+      "work place"
+    ]
+  },
+  {
+    "relation": "P991",
+    "label_name": "successful candidate",
+    "description": "person(s) elected after the election",
+    "aliases": [
+      "elected person",
+      "winner of election",
+      "victorious contender"
+    ]
+  },
+  {
+    "relation": "P1001",
+    "label_name": "applies to jurisdiction",
+    "description": "the item (an institution, law, public office ...) or statement belongs to or has power over or applies to the value (a territorial jurisdiction: a country, state, municipality, ...)",
+    "aliases": [
+      "jurisdiction",
+      "applied to jurisdiction",
+      "applies to territorial jurisdiction",
+      "belongs to jurisdiction",
+      "country of jurisdiction",
+      "linked to jurisdiction",
+      "of jurisdiction",
+      "valid in jurisdiction"
+    ]
+  },
+  {
+    "relation": "P1056",
+    "label_name": "product or material produced",
+    "description": "material or product produced by a government agency, business, industry, facility, or process",
+    "aliases": [
+      "output",
+      "product",
+      "commodity",
+      "products",
+      "creates",
+      "has product",
+      "maker of",
+      "makes",
+      "manufacturer of",
+      "manufactures",
+      "material produced",
+      "producer of",
+      "produces",
+      "results in",
+      "work produced"
+    ]
+  },
+  {
+    "relation": "P1080",
+    "label_name": "from narrative universe",
+    "description": "subject's fictional entity is in the object narrative. See also P1441 (present in work) and P1445 (fictional universe described in)",
+    "aliases": [
+      "cycle",
+      "mythology",
+      "continuity",
+      "universe",
+      "appears in universe",
+      "featured in universe",
+      "fictional universe where entity is from",
+      "from fictional universe",
+      "from mythology",
+      "from narrative",
+      "from universe",
+      "in continuity",
+      "in cycle",
+      "in world of",
+      "story cycle"
+    ]
+  },
+  {
+    "relation": "P1269",
+    "label_name": "facet of",
+    "description": "topic of which this item is an aspect, item that offers a broader perspective on the same topic",
+    "aliases": [
+      "aspect of",
+      "main topic",
+      "subitem of",
+      "subject in",
+      "subtopic of",
+      "topic of",
+      "section in"
+    ]
+  },
+  {
+    "relation": "P1303",
+    "label_name": "instrument",
+    "description": "musical instrument that a person plays",
+    "aliases": [
+      "musical instrument",
+      "instrument played",
+      "plays",
+      "plays instrument"
+    ]
+  },
+  {
+    "relation": "P1344",
+    "label_name": "participant of",
+    "description": "event a person or an organization was/is a participant in, inverse of P710 or P1923",
+    "aliases": [
+      "competed in",
+      "competes in",
+      "participant in",
+      "participant of event",
+      "participated in",
+      "present at",
+      "takes part",
+      "took part",
+      "took part in"
+    ]
+  },
+  {
+    "relation": "P1346",
+    "label_name": "winner",
+    "description": "winner of an event - do not use for awards (use P166/P2453 instead), nor for wars or battles",
+    "aliases": [
+      "leader",
+      "1st place medalist",
+      "champ",
+      "champion",
+      "prizewinner",
+      "titleholder",
+      "top dog",
+      "victor",
+      "winners",
+      "won by",
+      "nominee",
+      "awardee"
+    ]
+  },
+  {
+    "relation": "P1365",
+    "label_name": "replaces",
+    "description": "person or item replaced. Use P1398 (structure replaces) for structures. Use P155 (follows) if the previous item was not replaced or if predecessor and successor are identical",
+    "aliases": [
+      "continues from",
+      "forefather",
+      "preceded by",
+      "predecessor",
+      "previous job holder",
+      "replaced",
+      "succeeds",
+      "supersedes"
+    ]
+  },
+  {
+    "relation": "P1408",
+    "label_name": "licensed to broadcast to",
+    "description": "place that a radio/TV station is licensed/required to broadcast to",
+    "aliases": [
+      "city of license",
+      "community of license",
+      "authorized broadcast area"
+    ]
+  },
+  {
+    "relation": "P1412",
+    "label_name": "languages spoken, written or signed",
+    "description": "language(s) that a person speaks, writes or signs, including the native language(s)",
+    "aliases": [
+      "language",
+      "used language",
+      "second language",
+      "language used",
+      "language of expression",
+      "language read",
+      "language signed",
+      "language spoken",
+      "language written",
+      "language(s) spoken",
+      "written or signed",
+      "languages of expression",
+      "languages signed",
+      "languages spoken",
+      "languages spoken",
+      "written",
+      "or signed",
+      "signed language",
+      "signs language",
+      "speaks language",
+      "spoke language",
+      "uses language",
+      "writes language",
+      "wrote language"
+    ]
+  },
+  {
+    "relation": "P1435",
+    "label_name": "heritage designation",
+    "description": "heritage designation of a cultural or natural site",
+    "aliases": [
+      "designation",
+      "protection",
+      "heritage status",
+      "heritage designation",
+      "legal protection",
+      "listed status",
+      "listing",
+      "protected status"
+    ]
+  },
+  {
+    "relation": "P1552",
+    "label_name": "has quality",
+    "description": "the entity has an inherent or distinguishing non-material characteristic",
+    "aliases": [
+      "aspect",
+      "attribute",
+      "parameter",
+      "quality",
+      "characterized by",
+      "defined by",
+      "defining feature",
+      "defining parameter",
+      "has characteristic",
+      "has feature",
+      "has property",
+      "inherent property",
+      "required property",
+      "requirement",
+      "trait"
+    ]
+  },
+  {
+    "relation": "P1589",
+    "label_name": "lowest point",
+    "description": "point with lowest elevation in the country, region, city or area",
+    "aliases": [
+      "deepest point",
+      "extreme point deepest",
+      "extreme point lowest"
+    ]
+  },
+  {
+    "relation": "P1889",
+    "label_name": "different from",
+    "description": "item that is different from another item, with which it is often confused",
+    "aliases": [
+      "is not",
+      "see also",
+      "not",
+      "confused with",
+      "different than",
+      "different to",
+      "differs from",
+      "disambiguated from",
+      "distinct from",
+      "distinguished from",
+      "is different from",
+      "isn't",
+      "mistakenly taken for",
+      "not same as",
+      "not the same as",
+      "not to be confused with",
+      "often confused with",
+      "to be distinguished from"
+    ]
+  },
+  {
+    "relation": "P2389",
+    "label_name": "organization directed from the office or person",
+    "description": "organization which is directed by this office",
+    "aliases": [
+      "heads",
+      "runs",
+      "directs",
+      "head of",
+      "leader of",
+      "leads",
+      "organization directed from the office",
+      "organization led from the office or person"
+    ]
+  },
+  {
+    "relation": "P2416",
+    "label_name": "sports discipline competed in",
+    "description": "discipline an athlete competed in within a sport",
+    "aliases": [
+      "sporting event",
+      "sports event",
+      "sports discipline",
+      "sport discipline",
+      "discipline of sport",
+      "event in sports",
+      "sport discipline competed in",
+      "sport disciplines competed in",
+      "sports disciplines competed in"
+    ]
+  }
+]
